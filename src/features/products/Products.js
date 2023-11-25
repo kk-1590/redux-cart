@@ -17,6 +17,7 @@ export function Products() {
   useEffect(() => {
     dispatch(fetchAsync())
   },[]);
+  
   return (
     <div>
       <div>

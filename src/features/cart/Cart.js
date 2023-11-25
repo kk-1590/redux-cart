@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import {
-  fetchAsync
+  deleteAsync
 } from './cartSlice';
 import './Cart.css';
 
@@ -11,9 +11,7 @@ export function Cart() {
 
   const items = useSelector(state => state.cart.items)
 
-  useEffect(() => {
-      dispatch(fetchAsync())
-  },[]);
+  
 
   console.log(items);
   return (
@@ -46,7 +44,7 @@ export function Cart() {
               </select>
             </div>
             <div className='close'>
-              <button>X</button>
+              <button onClick={() => dispatch(deleteAsync(item.id))}>X</button>
             </div>
           </div>     
         )}        

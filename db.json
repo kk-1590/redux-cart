@@ -555,11 +555,11 @@
   ],
   "cart": [
     {
-      "id": 1,
-      "title": "iPhone 9",
+      "id": 2,
+      "title": "iPhone X",
       "brand": "Apple",
-      "price": 549,
-      "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+      "price": 899,
+      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
       "quantity": 1
     }
   ]
