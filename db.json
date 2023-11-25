@@ -560,7 +560,9 @@
       "brand": "Apple",
       "price": 899,
       "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-      "quantity": 1
+      "quantity": 2,
+      "requestId": "5FE-gjnvWRyvhIeSGvpXL",
+      "signal": {}
     }
   ]
 }
